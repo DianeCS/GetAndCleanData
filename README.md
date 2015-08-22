@@ -24,11 +24,11 @@ The assignment is based on data collected in an experiment. This data is activit
 
 
 ## Relevant files
-Files in this repo
+Files in this project
 
  - CODEBOOK - describes the data and provides additional references/links to resources
  - run_analysis.R - this file contains the code addressing the assignment and was used to generate the tidyAverages.txt file (described below)
- - tidyAverages.txt - this is the output from step 5 of the project: "tidy data set with the average of each variable for each activity and each subject." It was created with  write.table and can be viewed in R or in a spreadsheet application such as MS Excel:
+ - tidyAverages.txt - this is the output from step 5 of the project: "tidy data set with the average of each variable for each activity and each subject." It is submitted within the course (per assignment instructions). It was created with  write.table and can be viewed in R or in a spreadsheet application such as MS Excel:
  
  - - read.table("tidyAverages.txt", header=TRUE)
  - - in Excel (current versions), select delimeted file and set the delimiter to space
